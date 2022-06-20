@@ -1,0 +1,5 @@
+<?php
+ function demo_theme_preprocess_page(&$variables) {
+   // $variables['page']['featured'] = 'My Shop Partner';
+   // $variables['Variable_name']= 'Variable_value';
+}

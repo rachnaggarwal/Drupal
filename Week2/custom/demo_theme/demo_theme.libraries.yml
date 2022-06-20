@@ -1,0 +1,10 @@
+global-css-and-js:
+  css:
+    theme:
+      css/style.css: {}
+      css/block_style.css: {}
+      css/region_style.css: {}
+
+  js:
+    js/script.js: {}
+    

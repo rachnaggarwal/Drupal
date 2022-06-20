@@ -1,0 +1,78 @@
+<!--header-->
+<div class="head">
+    {{ page.header }}
+</div>
+    
+<!--company details-->
+<div class="logo">
+    <ul>
+        <li></li>
+        <li id="logo2">{{ page.company_branding }}</li>
+        <li id="logo3">{{ page.search }}</li>
+    </ul>
+</div>
+
+<!--Menu Navigation-->
+<nav class="nav">
+    {{ page.navigation }}
+</nav>
+   
+<!--Body between header and footer-->
+  
+<section class="main">
+
+    <div class="feature">
+    {{ page.featured}}
+    </div>
+    
+    <div class="formatting">
+        
+        {% if page.sidebar %}
+        <div id="sidebar-left">
+            {{ Website_Name }}
+            {{ My_Page }}
+            {{ page.sidebar }}
+            
+        </div>
+        {% endif %}
+
+        <div class="slider" id="content-right">
+            {{ page.content }}
+            
+            <div class="table" id="content-right">
+               {{ page.content_bottom_1 }}
+            </div>
+            
+            <div class="table" id="content-right">
+                {{ page.content_bottom_2 }}
+            </div>
+        </div>
+    </div>
+<section>
+
+<!--Footer section-->
+<section class="footer">
+       
+    <div class="fmenu">
+        {{ page.footer_navigation }}
+    </div>
+      
+    <div class="fcontact">
+        {{ page.footer_social_links }}
+    </div>
+      
+    <div class="intro">
+        {{ page.footer_bottom_1 }}
+    </div>
+       
+    <div class="fnumber">
+        {{ page.footer_bottom_2 }}
+    </div>
+        
+    <hr>
+        
+    <div class="copyr">
+        {{ page.copywrite }}
+    </div>
+         
+</section>
