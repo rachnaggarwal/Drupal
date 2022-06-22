@@ -1,0 +1,5 @@
+name: Employee CRUD Operations
+type: module
+description: The employee data can be stored in db using a custom form. Stored details can be edited and deleted through this module.
+core_version_requirement: ^8 || ^9
+package: Custom
